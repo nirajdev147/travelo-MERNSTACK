@@ -1,12 +1,10 @@
-# Ignore .env files
-*.env
-
-# Ignore node_modules directories (for both frontend and backend)
+# Ignore node_modules directory
 node_modules/
 
-# Ignore build and temporary files (common to frontend and backend)
-dist/
-build/
+# Ignore any npm cache files (can be large)
+npm-debug.log
+yarn-debug.log
+yarn-error.log
 
-# Ignore log files
-*.log
+# Ignore .cache and other temporary build files
+frontend/node_modules/.cache/
