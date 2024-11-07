@@ -8,3 +8,6 @@ yarn-error.log
 
 # Ignore any build cache files
 frontend/node_modules/.cache/
+
+# Ignore .env files
+*.env
