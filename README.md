@@ -56,3 +56,58 @@ Before getting started, ensure you have the following installed:
 4. Start the Backend development server using "npm run start-dev"
 
 5. Start the Frontend development client using "npm run start"
+
+# API Testing Guide
+
+## Overview
+This project provides an API that you can test locally to explore its functionality. This guide will walk you through how to set up the environment and use **Postman** to test the API endpoints effectively.
+
+## Prerequisites
+
+- **Postman**: You will need Postman to interact with and test the API. If you don't have it installed, download it from [Postman Download](https://www.postman.com/downloads/).
+- **API Server**: Ensure your API server is running locally.  Node.js framework, make sure it's up and running before testing.
+
+## 1. Install Postman
+To start testing, download and install Postman from the official site:  
+[Download Postman](https://www.postman.com/downloads/)
+
+## 2. Start the API Server
+
+Before you can test the API, ensure the server is running on your local machine. Depending on your setup, use the following commands:
+
+
+## 3. Create and Send Requests in Postman
+
+Open Postman and create a new request to interact with the API.
+
+## GET Request Example:
+**URL**     : http://localhost:5000/api/v1/your-endpoint
+**Method**  : GET
+
+
+## POST Request Example:
+**URL**     : http://localhost:5000/api/v1/your-endpoint
+**Method**  : POST
+**Body**    : Select raw, then choose JSON format, and enter your data as follows:
+
+json
+
+{
+  "key": "value"
+}
+
+## Inspect the Response
+After sending the request, Postman will display the API's response, including:
+
+**Status code**      : Indicates whether the request was successful (e.g., 200 OK, 404 Not Found).
+**Response body**    : The data returned by the API.
+**Response headers** : Metadata related to the request and response.
+
+
+## Save and Organize Requests
+To make future testing more efficient, save your requests in Postman:
+
+1. Click Save after sending a request.
+2. Organize your requests into Collections for easy access and quick testing.
+
+## Happy testing! 🎉
