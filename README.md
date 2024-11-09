@@ -42,9 +42,10 @@ Before getting started, ensure you have the following installed:
    2. cd travelo-MERNSTACK
 
 2. Set up the frontend(client) & backend (server)
-    1. Navigate to the frontend & backend directory using the following command:
-        3. cd frontend & npm install
-        4. cd backend & npm install
+    
+    1. cd frontend & npm install
+    2. cd backend & npm install
+  
 
 3. Create a .env file in the backend directory and add the following environment variables:
     PORT = 4000
