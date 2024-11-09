@@ -50,7 +50,7 @@
 }
 
 .secondary__btn a:hover {
-    color: rgb(227, 137, 3);
+    color:#00b8d4
 }
 
 .primary__btn {
@@ -138,5 +138,5 @@ a{
 }
 
 .profile__info:hover {
-    color: rgb(227, 137, 3);
+    color:#00b8d4;
 }

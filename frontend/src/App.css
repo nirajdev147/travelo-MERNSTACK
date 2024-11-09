@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primary-color: orange ;
-  /* --secondary-color: #faa935; */
-  --secondary-color:orange;
-  --heading-color: #0b2727;
-  --text-color: #6e7074;
-  --font-name: "Montserrat", sans-serif;
-  --subtitle-font-name: "Island Moments", cursive;
+  --primary-color: hsl(5, 100%, 69%);  /* A vibrant coral-red that's energetic and welcoming */
+--secondary-color: #00b8d4;  /* A contrasting turquoise blue for balance */
+--heading-color: #2a2e35;  /* A darker, neutral gray for headings, softer than black */
+--text-color: #4a4a4a;  /* A mid-tone gray for body text, easier on the eyes */
+--font-name: "Montserrat", sans-serif;  /* Clean and modern sans-serif font */
+--subtitle-font-name: "Island Moments", cursive;  /* Playful and unique cursive font */
+
 }
 
 * {

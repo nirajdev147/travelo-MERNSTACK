@@ -19,7 +19,7 @@ This project allows users to browse available tours, make bookings, and manage t
 - **User Authentication**: Sign up, log in, and log out with JWT-based authentication.
 - **Tour Listings**: View available tours with detailed information.
 - **Booking System**: Users can book a tour and view their bookings.
-- **Profile Management**: Users can view and edit their profile information.
+- **Profile Management**: Users can view their profile information.
 - **Responsive UI**: Built with React and styled with CSS for a clean, responsive design.
 - **MongoDB**: Persistent data storage for users, tours, and bookings.
 

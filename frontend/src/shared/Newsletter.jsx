@@ -59,7 +59,7 @@ const Newsletter = () => {
           <div
             className="popup-content"
             style={{
-              backgroundColor: '#f58523',
+              backgroundColor: '#00b8d4',
               padding: '20px',
               borderRadius: '8px',
               textAlign: 'center',
@@ -72,7 +72,7 @@ const Newsletter = () => {
               onClick={togglePopup}
               style={{
                 backgroundColor: '#fff',
-                color: '#f58523',
+                color: '#00b8d4',
                 border: 'none',
                 padding: '10px 20px',
                 borderRadius: '5px',
