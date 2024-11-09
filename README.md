@@ -48,10 +48,11 @@ Before getting started, ensure you have the following installed:
   
 
 3. Create a .env file in the backend directory and add the following environment variables:
-    PORT = 4000
-    MONGO_URI=<your-mongo-db-uri>
-    JWT_SECRET=<your-jwt-secret>
 
-4. Start the Frontend development server using "npm run start"
+   1. PORT = 4000
+   2. MONGO_URI=<enter_your_mongodb_uri_string_here>
+   3. JWT_SECRET=<enter_your_jwt_secretkey_here>
 
-5. Start the Backend development server using "npm run start-dev"
+4. Start the Backend development server using "npm run start-dev"
+
+5. Start the Frontend development client using "npm run start"
