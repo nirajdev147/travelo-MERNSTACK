@@ -90,11 +90,12 @@ Open Postman and create a new request to interact with the API.
 **Method**  : POST
 **Body**    : Select raw, then choose JSON format, and enter your data as follows:
 
-json
-
 {
   "key": "value"
 }
+
+## Note: Go through the following code to create a new request this is just a simple example of how to create a new request in Postman.
+
 
 ## Inspect the Response
 After sending the request, Postman will display the API's response, including:
